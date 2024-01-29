@@ -69,9 +69,11 @@ namespace DGD203_game
             Program.Flush();
             Console.WriteLine(".==============================================.\r\n|                                              |\r\n|                           .'\\                |\r\n|                          //  ;               |\r\n|                         /'   |               |\r\n|        .----..._    _../ |   \\               |\r\n|         \\'---._ `.-'      `  .'              |\r\n|          `.    '              `.             |\r\n|            :            _,.    '.            |\r\n|            |     ,_    (() '    |            |\r\n|            ;   .'(().  '      _/__..-        |\r\n|            \\ _ '       __  _.-'--._          |\r\n|            ,'.'...____'::-'  \\     `'        |\r\n|           / |   /         .---.              |\r\n|     .-.  '  '  / ,---.   (     )             |\r\n|    / /       ,' (     )---`-`-`-.._          |\r\n|   : '       /  '-`-`-`..........--'\\         |\r\n|   ' :      /  /                     '.       |\r\n|   :  \\    |  .'         o             \\      |\r\n|    \\  '  .' /          o       .       '     |\r\n|     \\  `.|  :      ,    : _o--'.\\      |     |\r\n|      `. /  '       ))    (   )  \\>     |     |\r\n|        ;   |      ((      \\ /    \\___  |     |\r\n|        ;   |      _))      `'.-'. ,-'` '     |\r\n|        |    `.   ((`            |/    /      |\r\n|        \\     ).  .))            '    .       |\r\n|     ----`-'-'  `''.::.________:::mx'' ---    |\r\n|                                              |\r\n|                                              |\r\n|                                              |\r\n'=============================================='");
             Console.WriteLine("You have won! How silly of you.");
-            Console.WriteLine($"Your score: {Program.score}!");
-            if (Program.score == 30)
-                Console.WriteLine("Well done. You finished the game fully!");
+            Console.WriteLine($"Your stars: ");
+            for (int i = 0; i < Program.score; i++) 
+                Console.Write(" *");
+            if (Program.score == 3)
+                Console.WriteLine("Well done. You finished the game with full stars!");
             else
                 Console.WriteLine("You could've done better.");
             Thread.Sleep(3000);

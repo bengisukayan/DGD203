@@ -106,7 +106,7 @@ public class Inventory
             if (Equals(_buffer, "1"))
             {
                 Console.WriteLine("Cat purrs. How delightful. Cat goes away after giving you a little kiss on the forehead.");
-                Program.score += 10;
+                Program.score++;
                 this.RemoveItem(item);
             }
             else
