@@ -34,7 +34,7 @@ namespace DGD203_game
             _player = new Player(_buffer);
             Console.WriteLine($"Nice to meet you {_player.playerName}, we hope you enjoy your stay! (You are very thirsty btw!!!)");
             Console.WriteLine("Type 'move' to move, 'items' to see inventory and 'exit' to terminate. (Please wait...)");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             Program.Flush();
         }
         public void GameLoop()
