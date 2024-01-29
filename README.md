@@ -9,7 +9,7 @@ Fullscreen is highly recommended!
 * exit: If you want to terminate midgame, you can use this command.
 
 ## Score
-Score is obtained by exploring, obtaining and petting the cats. If you find all 3 cats, you will be able to finish the game fully.
+Score is obtained by exploring, obtaining and petting the cats. If you find all 3 cats, you will be able to finish the game with full stars.
 
 ## Walkthrough (Spoilers):
 * Navigate through hallway from enterance.
